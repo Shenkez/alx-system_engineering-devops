@@ -1,2 +1,3 @@
 #!/bin/bash
-sh -c 'current_dir=$(pwd); cd ..; find "$current_dir" -maxdepth 1 -name "*.html" -type f -exec cp -u -t "$PWD" {} +'
+cp *.html ../
+
