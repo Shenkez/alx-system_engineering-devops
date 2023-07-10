@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter list of words separated by spaces" | tr ' ' '\n' | sort | uniq -u
+sort < word_list.txt | uniq -u
