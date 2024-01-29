@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# the script will use while loop and if statements
+
+#initiate a count variable
+
+count=0
+while [[ "$count" -lt 10 ]]
+do
+	if [[ "$count" -eq 8 ]]
+	then
+		echo -e "Best School\nHi"
+	else
+		echo "Best School"
+	fi
+	((count++))
+done
