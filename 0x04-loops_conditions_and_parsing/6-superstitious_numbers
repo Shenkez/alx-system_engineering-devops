@@ -2,7 +2,7 @@
 #script to print superstitious numbers using while loop and case statement
 
 #instantiate a count variable
-count=0
+count=1
 while [[ "$count" -le 20 ]]
 do
 	case $count in
